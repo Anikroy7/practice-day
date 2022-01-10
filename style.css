@@ -1,0 +1,21 @@
+div{
+    height: 960px;
+    width: 960px;
+    background-color: yellow;
+    animation-name:anik;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    text-align: center;
+}
+@keyframes anik{
+    from{
+        background-color: yellow;
+    }
+    to{
+        background-color: hotpink;
+    }
+
+}
+ div span{
+    margin-top: 200px;
+}
